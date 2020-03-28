@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>hammerhead_control</name>
+    <version>0.0.0</version>
+    <description>The hammerhead_control package</description>
+
+    <maintainer email="rishabhkundu13@gmail.com">Rishabh Kundu</maintainer>
+
+    <license>MIT</license>
+    <buildtool_depend>catkin</buildtool_depend>
+    <buildtool_depend>genmsg</buildtool_depend>
+    <build_depend>hammerhead</build_depend>
+    <build_depend>opencv</build_depend>
+    <build_depend>roscpp</build_depend>
+    <build_depend>roslib</build_depend>
+    <build_depend>std_msgs</build_depend>
+    <build_depend>thruster_controller</build_depend>
+    <build_depend>synchronizer</build_depend>
+    <build_depend>pid_controller</build_depend>
+
+    <build_export_depend>hammerhead</build_export_depend>
+    <build_export_depend>qt_build</build_export_depend>
+    <build_export_depend>roscpp</build_export_depend>
+    <build_export_depend>roslib</build_export_depend>
+    <build_export_depend>thruster_controller</build_export_depend>
+    <build_export_depend>synchronizer</build_export_depend>
+    <build_export_depend>pid_controller</build_export_depend>
+
+    <exec_depend>hammerhead</exec_depend>
+    <exec_depend>opencv</exec_depend>
+    <exec_depend>roscpp</exec_depend>
+    <exec_depend>roslib</exec_depend>
+    <exec_depend>std_msgs</exec_depend>
+    <exec_depend>thruster_controller</exec_depend>
+    <exec_depend>synchronizer</exec_depend>
+    <exec_depend>pid_controller</exec_depend>
+    <exec_depend>message_runtime</exec_depend>
+    <export></export>
+</package>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>joystick</name>
+  <version>0.0.0</version>
+  <description>The joystick package for hammerhead</description>
+  <maintainer email="rishabhkundu13@gmail.com">Rishabh Kundu</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>hammerhead</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>joy</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>pid_controller</build_depend>
+
+
+  <build_export_depend>hammerhead</build_export_depend>
+  <build_export_depend>joy</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>pid_controller</build_export_depend>
+
+  <exec_depend>hammerhead</exec_depend>
+  <exec_depend>joy</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>pid_controller</exec_depend>
+  <export>
+  </export>
+</package>
