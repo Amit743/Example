@@ -1,0 +1,30 @@
+HSV 1 THRESHOLDING PARAMETERS:
+Low_H = 0
+Low_S = 135
+Low_V = 4262494
+High_H = 118
+High_S = 6394256
+High_V = 155HSV 2 THRESHOLDING PARAMETERS:
+Low_H = 93
+Low_S = 32536
+Low_V = 128
+High_H = 0
+High_S = 166
+High_V = 32766
+EROSION:
+Kernel_size = 7
+DILATION:
+Kernel_size = 20
+SOBEL PARAMETERS:
+Kernel_size = 3
+MORPH PARAMETERS:
+Kernel_size = 2
+Min_line_gap = 0
+Min_line_length = 0
+CANNY THRESHOLD PARAMETERS:
+Threshold = 72
+Ratio = 2
+Kernel_size = 3
+CONTOUR RECTANGLE PARAMETERS:
+Height = 0
+Width = 0
